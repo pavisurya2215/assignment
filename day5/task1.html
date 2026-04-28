@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+        body{
+            background: linear-gradient(135deg, #1f1c2c, #928dab);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff;
+        }
+
+        .container{
+            text-align: center;
+        }
+
+        .main, .product{
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+            display: inline-block;
+            vertical-align: top;
+            border-radius: 15px;
+        }
+
+        .main{
+            width: 40%;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            margin: 50px 20px;
+        }
+
+        h1{
+            font-size: 32px;
+            margin-bottom: 15px;
+        }
+
+        .login{
+            background: rgba(0, 0, 0, 0.5);
+            padding: 40px 20px;
+            border-radius: 10px;
+        }
+
+        .same{
+            margin-top: 12px;
+        }
+
+        label{
+            display:inline-block;
+            width: 120px;
+            font-size: 16px;
+            text-align: right;
+            margin-right: 10px;
+        }
+
+        input{
+            font-size: 14px;
+            outline: none;
+            border: none;
+            padding: 10px;
+            width: 200px;
+            border-radius: 20px;
+            background: rgba(255,255,255,0.9);
+        }
+
+        .product{
+            margin-top: 50px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            width: 30%;
+            margin-left: 80px;
+        }
+
+        .product img{
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h1{
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .product p{
+            text-align: center;
+        }
+
+        .prod-button{
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .prod-button h3{
+            margin: 8px 0;
+        }
+
+        .prod-button input{
+            width: auto;
+        }
+
+        /* Simple mobile responsive (no flex) */
+        @media (max-width: 768px){
+            .main, .product{
+                display: block;
+                width: 90%;
+                margin: 20px auto;
+            }
+
+            label{
+                display: block;
+                text-align: left;
+                margin-bottom: 5px;
+            }
+
+            input{
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="main">
+        <h1>Login</h1>
+
+        <div class="login">
+            <form>
+
+                <div class="same">
+                    <label>Name:</label>
+                    <input type="text">
+                </div>
+
+                <div class="same">
+                    <label>Email:</label>
+                    <input type="email">
+                </div>
+
+                <div class="same">
+                    <label>Password:</label>
+                    <input type="password">
+                </div>
+
+                <div class="same">
+                    <label>Address:</label>
+                    <input type="text">
+                </div>
+
+                <div class="same">
+                    <label>Pincode:</label>
+                    <input type="number">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="product">
+        <h1>Products</h1>
+
+        <img src="https://wallpapercave.com/wp/wp9097947.jpg"
+
+        <div class="prod-button">
+            <h3>MT 155</h3>
+            <p>Price: $1500</p>
+
+            <input type="checkbox">
+            <label>Add to cart</label>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
+</body>
+</html>
