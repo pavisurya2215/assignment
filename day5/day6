@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+</head>
+
+<body>
+
+  <header class="pageHeader">
+    <h1>TechWorld</h1>
+    <p>Explore the Future of Technology</p>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Articles</a></li>
+      <li><a href="#">Tutorials</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <article class="pageArticle">
+    <h2>Latest Topics</h2>
+
+    <section>
+      <h3>Artificial Intelligence</h3>
+      <p>Learn how AI is transforming industries and everyday life.</p>
+    </section>
+
+    <section>
