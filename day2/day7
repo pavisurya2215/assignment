@@ -1,0 +1,45 @@
+
+
+  <div class="container">
+
+    <!-- Header -->
+    <header class="navbar">
+      <h2 class="logo">Anand</h2>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="talk-btn">Let's Talk ➡️</button>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+      <div class="left">
+        <img src="avatar.jpg" alt="profile" />
+      </div>
+
+      <div class="right">
+        <h1>I'm Anand</h1>
+        <h2>FullStack <span>Developer</span></h2>
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <marquee>
+        HTML - CSS ✦ HTML-CSS ✦ HTML - CSS ✦ HTML-CSS ✦ HTML - CSS ✦ HTML-CSS
+      </marquee>
+    </footer>
+
+  </div>
+
+</body>
+</html>
